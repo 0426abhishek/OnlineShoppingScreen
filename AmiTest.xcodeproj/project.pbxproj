@@ -14,6 +14,20 @@
 		121569DB1FA9B978007BFE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121569D91FA9B978007BFE82 /* LaunchScreen.storyboard */; };
 		121569E61FA9B978007BFE82 /* AmiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121569E51FA9B978007BFE82 /* AmiTestTests.swift */; };
 		121569F11FA9B978007BFE82 /* AmiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121569F01FA9B978007BFE82 /* AmiTestUITests.swift */; };
+		121757A51FDB126000208BAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121757A41FDB126000208BAA /* HomeViewController.swift */; };
+		1280154C1FDEF96C00E213C2 /* PlanticketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280154B1FDEF96C00E213C2 /* PlanticketViewController.swift */; };
+		12AEE4321FE6966D005CC82B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AEE4311FE6966D005CC82B /* ProfileViewController.swift */; };
+		12BAC4FD1FE4404A0034E5C6 /* FlightDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BAC4FC1FE4404A0034E5C6 /* FlightDetailsViewController.swift */; };
+		12BAC4FF1FE502AD0034E5C6 /* FlightResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BAC4FE1FE502AD0034E5C6 /* FlightResultsViewController.swift */; };
+		12EA05651FD2973600BCB3D0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA05641FD2973600BCB3D0 /* SignInViewController.swift */; };
+		12EB16B41FE5A14F00649C77 /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EB16B21FE5A14F00649C77 /* HotelTableViewCell.swift */; };
+		12EB16B51FE5A14F00649C77 /* HotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12EB16B31FE5A14F00649C77 /* HotelTableViewCell.xib */; };
+		12EB3C301FD08B7C00FBD103 /* SignPageVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EB3C2F1FD08B7C00FBD103 /* SignPageVCViewController.swift */; };
+		12EFBFCC1FE62D2200E99B09 /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EFBFCB1FE62D2200E99B09 /* TourViewController.swift */; };
+		12EFBFCE1FE674BF00E99B09 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EFBFCD1FE674BF00E99B09 /* ExploreViewController.swift */; };
+		12F137751FE792CE0095DBD3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F137741FE792CE0095DBD3 /* MapViewController.swift */; };
+		12F137771FE79C0E0095DBD3 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12F137761FE79C0E0095DBD3 /* Places.plist */; };
+		12F137791FE79D920095DBD3 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F137781FE79D920095DBD3 /* Places.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,20 @@
 		121569EC1FA9B978007BFE82 /* AmiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		121569F01FA9B978007BFE82 /* AmiTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiTestUITests.swift; sourceTree = "<group>"; };
 		121569F21FA9B978007BFE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121757A41FDB126000208BAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1280154B1FDEF96C00E213C2 /* PlanticketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanticketViewController.swift; sourceTree = "<group>"; };
+		12AEE4311FE6966D005CC82B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		12BAC4FC1FE4404A0034E5C6 /* FlightDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsViewController.swift; sourceTree = "<group>"; };
+		12BAC4FE1FE502AD0034E5C6 /* FlightResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightResultsViewController.swift; sourceTree = "<group>"; };
+		12EA05641FD2973600BCB3D0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		12EB16B21FE5A14F00649C77 /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
+		12EB16B31FE5A14F00649C77 /* HotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelTableViewCell.xib; sourceTree = "<group>"; };
+		12EB3C2F1FD08B7C00FBD103 /* SignPageVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignPageVCViewController.swift; sourceTree = "<group>"; };
+		12EFBFCB1FE62D2200E99B09 /* TourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
+		12EFBFCD1FE674BF00E99B09 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		12F137741FE792CE0095DBD3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		12F137761FE79C0E0095DBD3 /* Places.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
+		12F137781FE79D920095DBD3 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +127,24 @@
 			children = (
 				121569D01FA9B978007BFE82 /* AppDelegate.swift */,
 				121569D21FA9B978007BFE82 /* ViewController.swift */,
+				12EB3C2F1FD08B7C00FBD103 /* SignPageVCViewController.swift */,
+				12BAC4FE1FE502AD0034E5C6 /* FlightResultsViewController.swift */,
+				12EA05641FD2973600BCB3D0 /* SignInViewController.swift */,
+				121757A41FDB126000208BAA /* HomeViewController.swift */,
+				1280154B1FDEF96C00E213C2 /* PlanticketViewController.swift */,
+				12BAC4FC1FE4404A0034E5C6 /* FlightDetailsViewController.swift */,
+				12EB16B21FE5A14F00649C77 /* HotelTableViewCell.swift */,
+				12EB16B31FE5A14F00649C77 /* HotelTableViewCell.xib */,
+				12EFBFCB1FE62D2200E99B09 /* TourViewController.swift */,
 				121569D41FA9B978007BFE82 /* Main.storyboard */,
 				121569D71FA9B978007BFE82 /* Assets.xcassets */,
 				121569D91FA9B978007BFE82 /* LaunchScreen.storyboard */,
 				121569DC1FA9B978007BFE82 /* Info.plist */,
+				12EFBFCD1FE674BF00E99B09 /* ExploreViewController.swift */,
+				12AEE4311FE6966D005CC82B /* ProfileViewController.swift */,
+				12F137741FE792CE0095DBD3 /* MapViewController.swift */,
+				12F137761FE79C0E0095DBD3 /* Places.plist */,
+				12F137781FE79D920095DBD3 /* Places.swift */,
 			);
 			path = AmiTest;
 			sourceTree = "<group>";
@@ -233,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				121569DB1FA9B978007BFE82 /* LaunchScreen.storyboard in Resources */,
+				12F137771FE79C0E0095DBD3 /* Places.plist in Resources */,
 				121569D81FA9B978007BFE82 /* Assets.xcassets in Resources */,
+				12EB16B51FE5A14F00649C77 /* HotelTableViewCell.xib in Resources */,
 				121569D61FA9B978007BFE82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +303,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12EFBFCC1FE62D2200E99B09 /* TourViewController.swift in Sources */,
+				12BAC4FD1FE4404A0034E5C6 /* FlightDetailsViewController.swift in Sources */,
+				12BAC4FF1FE502AD0034E5C6 /* FlightResultsViewController.swift in Sources */,
+				12F137791FE79D920095DBD3 /* Places.swift in Sources */,
+				121757A51FDB126000208BAA /* HomeViewController.swift in Sources */,
+				12EA05651FD2973600BCB3D0 /* SignInViewController.swift in Sources */,
 				121569D31FA9B978007BFE82 /* ViewController.swift in Sources */,
+				12F137751FE792CE0095DBD3 /* MapViewController.swift in Sources */,
+				12AEE4321FE6966D005CC82B /* ProfileViewController.swift in Sources */,
+				12EB3C301FD08B7C00FBD103 /* SignPageVCViewController.swift in Sources */,
+				12EB16B41FE5A14F00649C77 /* HotelTableViewCell.swift in Sources */,
 				121569D11FA9B978007BFE82 /* AppDelegate.swift in Sources */,
+				12EFBFCE1FE674BF00E99B09 /* ExploreViewController.swift in Sources */,
+				1280154C1FDEF96C00E213C2 /* PlanticketViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
