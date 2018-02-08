@@ -10,10 +10,21 @@ import UIKit
 
 class FlightDetailsViewController: UIViewController {
 
+    @IBOutlet weak var findNowBtn: UIButton!
+    @IBOutlet weak var canLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+       canLabel.layer.cornerRadius = 12
+        canLabel.layer.masksToBounds = true
+        canLabel.layer.backgroundColor = UIColor.white.cgColor
         // Do any additional setup after loading the view.
+        
+        findNowBtn.backgroundColor = UIColor(red: 88.0/255.0, green: 174.0/255.0, blue: 274.0/255.0, alpha: 1.0)
+        findNowBtn.layer.cornerRadius = findNowBtn.frame.height / 2
+        findNowBtn.tintColor = UIColor.white
+        findNowBtn.layer.borderWidth = 1
+        findNowBtn.layer.borderColor = UIColor(red: 88.0/255.0, green: 174.0/255.0, blue: 274.0/255.0, alpha: 1.0).cgColor
     }
 
     override func didReceiveMemoryWarning() {
