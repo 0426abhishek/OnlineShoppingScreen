@@ -10,10 +10,17 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var signInBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        signInBtn.backgroundColor = UIColor(red: 88.0/255.0, green: 174.0/255.0, blue: 274.0/255.0, alpha: 1.0)
+        signInBtn.layer.cornerRadius = signInBtn.frame.height / 2
+        signInBtn.tintColor = UIColor.white
+        signInBtn.layer.borderWidth = 1
+        signInBtn.layer.borderColor = UIColor(red: 88.0/255.0, green: 174.0/255.0, blue: 274.0/255.0, alpha: 1.0).cgColor
+
     }
 
     override func didReceiveMemoryWarning() {
